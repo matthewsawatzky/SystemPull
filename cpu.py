@@ -1,6 +1,6 @@
 import psutil
 
-def get_cpu_usage():
+def get_cpu_info():
     """Get CPU usage statistics."""
     try:
         system_cpu = psutil.cpu_percent(interval=1)
